@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "Intervals.icu": {
+      "command": "C:\\Users\\DEINNAME\\.local\\bin\\uv.exe",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "--with-editable",
+        "C:\\Users\\DEINNAME\\intervals-mcp-server",
+        "mcp",
+        "run",
+        "C:\\Users\\DEINNAME\\intervals-mcp-server\\src\\intervals_mcp_server\\server.py"
+      ],
+      "env": {
+        "INTERVALS_API_BASE_URL": "https://intervals.icu/api/v1",
+        "ATHLETE_ID": "<ATHLETE_ID>",
+        "API_KEY": "<API_KEY>",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
